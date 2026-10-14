@@ -8,6 +8,7 @@ project_outline: "[[00-project/01-project-outline]]"
 | Role             | Needs                                                                                          | Responsibility / access                                                                                                                                                                         |
 | ---------------- | ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Application user | Turn supermarket purchases into ingredients, meal recommendations, and nutritional information | Uploads receipts; reviews, corrects, and confirms extracted items and quantities; opens saved receipts; manages the pantry and basic staples; chooses a recipe; views its nutritional breakdown |
+
 Meal-planning, ingredient-review, and nutrition-focused users describe needs of this same actor. There is no administrator role, sharing permissions, login method, or multi-user access model. 
 
 The pantry and staples list are user data maintained by hand, not a separate role. OCR, the LLM, recipe matching, and nutritional calculation are system components, not human permission roles. Their suggestions cannot confirm ingredients on the user's behalf.
